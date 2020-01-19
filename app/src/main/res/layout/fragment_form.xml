@@ -13,7 +13,6 @@
             android:id="@+id/wrapper"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_above="@+id/buttonCreate"
             android:layout_alignParentTop="true"
             android:padding="24dp">
 
@@ -51,17 +50,20 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="10dp" />
 
+            <Button
+                android:id="@+id/buttonCreate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spinnerCountry"
+                android:layout_marginTop="50dp"
+                android:background="@color/colorAccent"
+                android:text="CREATE PERSON"
+                android:textColor="@android:color/white" />
 
         </RelativeLayout>
 
-        <Button
-            android:id="@+id/buttonCreate"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:background="@color/colorAccent"
-            android:text="CREATE PERSON"
-            android:textColor="@android:color/white" />
+
+
 
     </RelativeLayout>
 
